@@ -10,5 +10,6 @@ UTURN: Write; change background
 VOTINGUSABILITY: Import; add photos; change background
 ARL: Import; add photos; change background
 JOHNDEERE: Fix link; change background
+PROJECTS: Fix images; add a hover highlight
 
-ALL: Change colors to black and teal; fix email icon.
+ALL: fix email icon; fix hamburger menu - overlapping projects.
