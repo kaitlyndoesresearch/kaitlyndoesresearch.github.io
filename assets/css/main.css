@@ -3323,9 +3323,9 @@
 	}
 
 	body.landing #header {
-		background: transparent;
+		background: rgba(39, 40, 51, 0.965);
 		box-shadow: none;
-		position: absolute;
+		position: fixed;
 	}
 
 /* Banner */
@@ -3517,16 +3517,7 @@
 			#banner .content {
 				padding: 4.5em;
 			}
-					#banner .content header {
-						display: block;
-						margin: 0 0 2em 0;
-						text-align: center;
-					}
 
-					#banner .content .image {
-						margin: 0;
-					}
-		
 		/* Footer */
 
 			#footer {
