@@ -2535,9 +2535,6 @@
 			.image.fit img {
 				width: 100%;
 			}.
-	body.is-touch .image.thumb:before {
-		opacity: 0.5 !important;
-	}
 
 	body.is-touch .image.thumb:after {
 		display: none !important;
