@@ -3517,7 +3517,10 @@
 			#banner .content {
 				padding: 4.5em;
 			}
-
+					#banner .content header {
+						display: block;
+					}
+		
 		/* Footer */
 
 			#footer {
