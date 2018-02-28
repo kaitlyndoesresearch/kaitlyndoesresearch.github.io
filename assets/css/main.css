@@ -2496,11 +2496,6 @@
 				background-color: rgba(0, 0, 0, 0.5);
 			}
 
-			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
-			}
-
 		.image img {
 			border-radius: 4px;
 			display: block;
@@ -3583,7 +3578,8 @@
 				height: auto;
 			}
 
-				.spotlight .image.main {
+				.spotlight 
+		.main {
 					display: block;
 					margin: 0;
 					max-height: 40vh;
