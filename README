@@ -8,7 +8,7 @@ UTURN: Write;
 VOTINGUSABILITY: Import; add photos;
 ARL: Import; add photos;
 JOHNDEERE: Fix link;
-PROJECTS: Fix images; fix hover highlight
+PROJECTS: Fix images; Make the "View" Text more visible, and change it to an editable field.
 LAZYSUZAN: Fix images;
 
 ALL: fix email icon;
