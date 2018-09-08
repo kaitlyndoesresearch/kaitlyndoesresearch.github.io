@@ -3,10 +3,10 @@ INDEX: Still need to add John Deere and update U-TuRN text.
   Need to add links for LinkedIn and GitHub. 
   Need a favicon/logo.
 CIRTL: Need to fix the footer, fix/add images;
-ABOUTME: Need to make mobile-adaptive better
-VOTINGUSABILITY: Import; add photos;
+ABOUTME: Need to make mobile-adaptive better; fix photo placement (add a container?);
+VOTINGUSABILITY: Import; add photos; edit photo (remove link, make bigger, move to right?);
 ARL: Import; add photos;
-PROJECTS: Fix images; Make the "View" Text more visible, and change it to an editable field.
+PROJECTS: Fix images; 
 UTURN: Write;
 JOHNDEERE: Write; Fix link;
 LAZYSUZAN: Write; Fix images;
@@ -20,3 +20,6 @@ Page about Usabilathon
 
 DO:
 Content analysis/strategy
+
+IF TIME:
+PROJECTS: Make the "View" Text more visible, and change it to an editable field.
