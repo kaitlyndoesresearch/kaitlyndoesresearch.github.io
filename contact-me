@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Edited by @kaitlyndoesresearch
+-->
+<html>
+	<head>
+		<title>Boeing SCDP - Projects - Kaitlyn Ouverson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Kaitlyn Ouverson</a></h1>
+					<nav class="fixed-top" id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="projects.html">Projects</a>
+								<ul>
+									<li><a href="cirtl.html">CIRTL</a></li>
+									<li><a href="arl.html">ARL User Testing</a></li>
+									<li><a href="voting-usability.html">Voting Machine Usability</a></li>
+									<li><a href="john-deere-user-study.html">John Deere User Study</a></li>
+									<li><a href="u-turn.html">U-TuRN</a></li>
+									<li><a href="lazy-suzan.html">Lazy Suzan App</a></li>
+									<li><a href="boeing-scdp.html">Boeing SCDP</a></li>
+								</ul>
+							</li>
+							<li><a href="about-me.html">About Me</a></li>
+						</ul>
+					</nav>
+				</header>
+			
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Boeing SCDP</h2>
+              <p>Boeing Student Career Development Program</p>
+						</header>
+
+						<!-- Text -->
+              <section>
+              If you would like to discuss my work, please fill out this form and I will get back to you as soon as possible. Thanks!
+              </section>
+            <!-- Form -->
+							<section>
+								<h3>Form</h3>
+								<form method="post" action="html_form_send.php">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" value="" placeholder="Name">
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="email" value="" placeholder="Email">
+										</div>
+										<div class="col-12">
+											<select name="category" id="category">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-low" name="priority" checked="">
+											<label for="priority-low">Low Priority</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-normal" name="priority">
+											<label for="priority-normal">Normal Priority</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-high" name="priority">
+											<label for="priority-high">High Priority</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="copy" name="copy">
+											<label for="copy">Email me a copy of this message</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="human" name="human" checked="">
+											<label for="human">I am a human and not a robot</label>
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="primary"></li>
+												<li><input type="reset" value="Reset"></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+            
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kaitlyn-ouverson-2b437b107" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/kaitlyndoesresearch" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="contact-me.html" class="icon solid alt fa-envelope"><span class="label">Contact me</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
