@@ -1,15 +1,12 @@
-INDEX: Still need to add John Deere and update U-TuRN text. 
-  Need to add photos. 
-  Need to add links for LinkedIn and GitHub. 
-  Need a favicon.
-CIRTL: Need to fix the footer, fix/add images;
-ABOUTME: Need to fix photo
+INDEX: need a favicon/logo;
+CIRTL: fix/add images;
+ABOUTME: need to make mobile-adaptive better; fix photo placement (add a container?);
+VOTINGUSABILITY: 
+ARL: add photos;
+PROJECTS: equalize image size (for full complement); 
 UTURN: Write;
-VOTINGUSABILITY: Import; add photos;
-ARL: Import; add photos;
-JOHNDEERE: Fix link;
-PROJECTS: Fix images; Make the "View" Text more visible, and change it to an editable field.
-LAZYSUZAN: Fix images;
+JOHNDEERE: Write; Fix link;
+LAZYSUZAN: Write; Fix images;
 
 ALL: fix email icon;
 
@@ -17,6 +14,10 @@ ADD:
 Page about making the website
 Page about Usabilathon
 "Contact me" form - possibly to replace the email link that doesn't work
+ target="_blank" to LinkedIn and GitHub on each page
 
 DO:
 Content analysis/strategy
+
+IF TIME:
+PROJECTS: Make the "View" Text more visible, and change it to an editable field.
