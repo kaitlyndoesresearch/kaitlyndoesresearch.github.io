@@ -1,21 +1,23 @@
-INDEX: need a favicon/logo;
-CIRTL: fix/add images;
-ABOUTME: need to make mobile-adaptive better; fix photo placement (add a container?);
-VOTINGUSABILITY: 
-ARL: add photos;
-PROJECTS: equalize image size (for full complement); 
-UTURN: Write;
-JOHNDEERE: Write; Fix link;
+INDEX: need a favicon/logo; replace Voting Study with Boeing Page (and move CIRTL and ARL down); replace ARL with UTURN;
+CIRTL: fix image sizes;
+ARL: add images;
+PROJECTS: add images for UTURN, LAZYSUZAN, and BOEING; 
+UTURN: Write; Add images;
+<s>JOHNDEERE: Write; Fix link;</s>
 LAZYSUZAN: Write; Fix images;
+BOEING: Add images;
+ABOUTME: ;
+VOTINGUSABILITY: ;
 
-ALL: fix email icon; fix copyright
+ALL: ;
 
 ADD:
 Page about making the website
 Page about Usabilathon
 
+IF TIME:
+PROJECTS: Make the "View" Text more visible, and change it to an editable field. 
+
 DO:
 Content analysis/strategy
-
-IF TIME:
-PROJECTS: Make the "View" Text more visible, and change it to an editable field.
+Make mobile-adaptive better
