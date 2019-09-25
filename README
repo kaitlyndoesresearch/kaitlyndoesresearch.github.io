@@ -8,13 +8,11 @@ UTURN: Write;
 JOHNDEERE: Write; Fix link;
 LAZYSUZAN: Write; Fix images;
 
-ALL: fix email icon;
+ALL: fix email icon; fix copyright
 
 ADD:
 Page about making the website
 Page about Usabilathon
-"Contact me" form - possibly to replace the email link that doesn't work
- target="_blank" to LinkedIn and GitHub on each page
 
 DO:
 Content analysis/strategy
