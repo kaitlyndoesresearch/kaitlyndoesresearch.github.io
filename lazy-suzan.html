@@ -33,6 +33,7 @@
 								<li><a href="u-turn.html">U-TuRN</a></li>
 								<li><a href="lazy-suzan.html">Lazy Suzan App</a></li>
 								<li><a href="boeing-scdp.html">Boeing SCDP</a></li>
+								<li><a href="a11y.html">Digital A11y Redesign</a></li>
 							</ul>
 						</li>
 						<li><a href="about-me.html">About Me</a></li>
@@ -40,59 +41,141 @@
 				</nav>
 			</header>
        <!-- Main -->
-			<div id="main" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Lazy Suzan</h2>
-					</header>
-						<!-- Text -->
-						<section>
-							<p>Under construction! Please check back soon.</p>
-						<h3>SUMMARY</h3>
-							<p></p>
+		<div id="main" class="wrapper style1">
+			<div class="container">
+				<header class="major">
+					<h2>Lazy Suzan</h2>
+				</header>
+	<!-- Text -->
+		<section>
+		<h3>SUMMARY</h3>
+			<p>Lazy Suzan was a application developed over the course of a semester in an introductory human-centered design course. The project required that my team and I use interviews, competitor analysis, prototyping, and user testing to create and evaluate a application of our choice. We chose to create a food preparation and recipe organization application called "Lazy Suzan."</p>
 
-						<h3>DESIGN METHOD</h3>
-						<em>Problems</em>
-							<ul><li>RQ 1</li>
-							<li>RQ 2</li></ul>
-								
-						<em>Information Collection</em>
-							<p></p>
+		<h3>DESIGN METHOD</h3>
+		<em>Problems</em>
+			<ul><li>RQ 1</li>
+			<li>RQ 2</li></ul>
+							
+		<em>Information Collection</em>
+			<p>Competitor Analyses were conducted to identify existing applications such as Hello Fresh and Yummly which offer solutions to the problem of meal preparation organization. This and prior experience in the kitchen were used to identify tasks that cooks must complete when organizing large meals. These assumptions were checked using a survey of family and friends who enjoy cooking or do so professionally. Questions asked included, "How many times per week do you cook?", "How often do you cook from a recipe?" and "Tell us about your worst cooking experience."</p>
+			<p>Hierarchical Task Analysis was used to understand the user's process, from when they start searching for recipes to the time the sit down to eat the meal. The HTA diagram which came from this step is shown in Figure 1. At this point, Thematic Analysis was also used to make sense of the user interviews conducted in the previous step. These themes are shown in Table 1.</p>
+			<span class="image medium left"><img src="images/hta-Lazy-Suzan.png" alt="A dendrogram showing the tasks required to cook a multi-dish meal. The first step is to search for recipes, in this case online. To do so, the device must be unlocked and the internet or recipe app must be opened, recipes must be searched for, and those recipes must be saved for future use. If using a recipe found previously, the device must be locked before the recipe can be accessed. After the recipe is open, the meal preparation must be planned, meaning times and temperatures must be evaluated so that the order of creation can be determined. Next, the user must prepare their cooking tools, gather ingredients, and complete the recipe's tasks, which means unlocking the electronic device hosting the recipes and finding the last completed step (or starting from the beginning) before reading and completing the next step. These three tasks - prepare tools, gather ingredients, and follow the recipe - should be repeated until the meal's recipes are completed. The last step is to serve the food, which requires the retrieval of serving tools and plating the food before finally eating the meal."/>Figure 1. Hierarchical Task Analysis of cooking a multi-course meal resulted in the pictured diagram.</span>
+							    
+		<h4>Default</h4>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr>
+							<th>Themes</th>
+							<th>Major Categories</th>
+							<th>Minor Categories</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Tools</td>
+							<td>Recipe search/storage</td>
+							<td>Friends, family, internet, Google, Pinterest, allrecipes.com, cookbook, Reddit, Cooks Illustrated, Blue Apron, Yummly, Weber Grills, YouTube, restaurants, documentaries, Taste of Home magazine, Supercook, Microsoft OneNote</td>
+						</tr>
+						<tr>
+							<td>Tools</td>
+							<td>Recipe viewing</td>
+							<td>iPad, iPhone, smartphone, laptop computer, paper</td>
+						</tr>
+						<tr>
+							<td>Tools</td>
+							<td>Timing</td>
+							<td>Oven, microwave, smartphone, Siri, wristwatch, mental note</td>
+						</tr>
+						<tr>
+							<td>Tools</td>
+							<td>Cooking</td>
+							<td>Oven, pressure cooker, pans, cutting board, knives, fridge, food processor, grill, stove, thermometer</td>
+						</tr>
+						<tr>
+							<td>Context</td>
+							<td>Motivation</td>
+							<td>Thanksgiving, special occasion, meal prep, health, trying new things</td>
+						</tr>
+						<tr>
+							<td>Context</td>
+							<td>Environment</td>
+							<td>Kitchen, grocery store, restaurant</td>
+						</tr>
+						<tr>
+							<td>Features</td>
+							<td>Time Management</td>
+							<td>Timers with labels, voice control, finish dishes at the same time</td>
+						</tr>
+						<tr>
+							<td>Features</td>
+							<td>Recipes</td>
+							<td>Import, export, enter own recipes, read, re-read, hold place, read step, pause, continue, read from a distance, scale recipe, voice control</td>
+						</tr>
+						<tr>
+							<td>Features</td>
+							<td>Other</td>
+							<td>Climate considerations, cooking "forecast"</td>
+						</tr>
+						<tr>
+							<td>Other</td>
+							<td>Mistakes</td>
+							<td>Forgetting about food, falling asleep, burning food, mixing up ingredients, incorrect proportions, misremembering, misreading recipes</td>
+						</tr>
+						<tr>
+							<td>Other</td>
+							<td>Concerns</td>
+							<td>Getting electronics dirty, organization, missing ingredients, counter space</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<p>After using discovery research to identify the scope of the problem we wanted to solve, a paper prototype was sketched and storyboarding was used to convey the idea to our team project's stakeholders. Figure 2 shows an example of these sketched designs. If we had more time, this would have been the perfect opportunity for us to conduct some user testing to understand whether or not regular users also approved of this idea and what areas of the application needed focus during future iterative research.</p>
+			
+			<span class="image medium left"><img src="images/paperprototype-Lazy-Suzan.png" alt="A sketched paper prototype screen for the landing page for the Lazy Suzan app"/>Figure 2. A paper prototype was used, along with story boarding, to convey the app idea to stakeholders.</span>
 
-						<em>Solution Development</em>
-							<p></p>
-						<em>Gather Feedback</em>
-							<p></p>
-						<em>Improve</em>
-							<p></p>
+		<em>Solution Development</em>
+			<p>The next step was to translate what we gleaned from our conversations with users and stakeholders and translate it into a functional prototype. To do this, our team worked with Axure, each of us taking a different feature of the app and building it out to meet our pre-defined specifications. The first prototype, which was used to guide a heuristic with a sample of non-users, is shown in Figure 3.</p>
+		
+			<span class="image medium left"><img src="images/lofi1-Lazy-Suzan.png" alt="A low-fidelity prototype screen for the Lazy Suzan app"/>Figure 3. A representative screenshot of the first low-fidelity prototype used in evaluation.</span>
+			
+		<em>Gather Feedback</em>
+			<p>We used the Axure prototype to gather feedback from Human-Computer Interaction experts during a Heuristic Review. From this, we determined that more work needed to be put into our microcopy throughout the prototype, we needed to ensure our interactions were consistent across the platform, and the process for adding multiple recipes to a single meal was unclear. Using this and other feedback, we created the second iteration of our Lazy Suzan prototype.</p>
+		
+		<em>Improve</em>
+			<p>Several improvements were made to the app prototype following our first round evaluation, including the change shown in Figure 4. </p>
+			
+			<span class="image medium left"><img src="images/iteration-Lazy-Suzan.png" alt="An example of changes made to the Lazy Suzan app following evaluation."/>Figure 4. In the first version of the prototype, a check marked box served as the path for adding additional recipes to a meal. In the second version, "Add More Recipes" and "Create Meal" are clearly-marked buttons on the screen.</span>
+		
+		<h3>CONCLUSIONS</h3>
+			<p>After implementing the changes recommended by our non-user sample, we planned another iteration of user testing. With more time, we were going to use validated surveys (NASA TLX and SUS) to understand how well our product compared to a competitor, allrecipes. We were going to use contextual inquiry to observe our users in their own kitchens, so that the only variable being manipulated was the product used to organize their recipes. To save time, we planned to use two instances of 10-minutes of simulated cooking with either application. NASA TLX and SUS scores would be taken after each 10-minute task, and participants would be debreifed at the end of the study.</p>
 
-						<h3>CHALLENGES</h3>
-                				<ol>
-                  					<li>Challenge 1</li>
-                    					<p>Description.</p>
-                   					<li>Challenge 2</li>
-                    					<p>Description.</p>
-                  					<li>Challenge 3</li>
-                    					<p>Description.</p>
-                   				</ol>
-						</div>
-						</section>
+		<h3>CHALLENGES</h3>
+                <ol>
+                	<li>Teamwork</li>
+                	<p>As in most group projects, especially as we are learning how to cooperate and collaborate in professional ways, teamwork was a challenge. Three of the four of us had prior working relationships and fell in step fairly easy; however, we experienced some dissonance with our remaining member. They were not a heavy contributor, likely due to their level of maturity and motivation style. In this experience, I mostly just struggled on and left a negative review of that partner. However, if I could go back and relive this project, I would have taken time to layout expectations prior to the commencement of our project. Communication is key.</p>
+                 	<li>Prototyping</li>
+                  	<p>I love building prototypes, don't get me wrong, but the process changes immensely when you work with a team instead of independently. This project taught me a few lessons about properly allocating responsibilities and having a design standard to avoid inconsistencies in the interface and in the user experience.</p>
+                </ol>
+		</div>
+		</section>
 				
 		
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/kaitlyn-ouverson-2b437b107" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/kaitlyndoesresearch" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="https://www.instagram.com/kaitlyndoesresearch/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="contact-me.html" class="icon solid alt fa-envelope"><span class="label">Contact me</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Kaitlyn Ouverson. All rights reserved.</li><li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+	<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/kaitlyn-ouverson-2b437b107" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/kaitlyndoesresearch" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.instagram.com/kaitlyndoesresearch/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="contact-me.html" class="icon solid alt fa-envelope"><span class="label">Contact me</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Kaitlyn Ouverson. All rights reserved.</li><li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
 
-		</div>
+	</div>
 
 	<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
