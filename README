@@ -1,25 +1,34 @@
-INDEX: need a favicon/logo; replace Voting Study with Boeing Page (and move CIRTL and ARL down); replace ARL with A11y;
+INDEX: need a favicon/logo; replace Voting Study with Boeing Page (and move CIRTL and ARL down); replace ARL with A11y; fix "View" link on Lazy Suzan; 
 CIRTL: fix image sizes;
-ARL: add images;
-PROJECTS: fix "View" link on Lazy Suzan; 
-<s>UTURN: Write; Add images;</s>
-<s>JOHNDEERE: Write; Add images;</s>
-LAZYSUZAN: Fix images;
+ARL: add images - use graphics from papers, presentations;
+<s>UTURN: remove from projects list;</s>
+<s>JOHNDEERE: remove from projects list;</s>
+<s>LAZYSUZAN: remove from projects list; </s>
 BOEING: Add images;
 DIGITALA11Y: Fix images;
 USABILATHON: Create Page; Write; Add images;
-PORTFOLIO CREATION: Create Page; Write; Add images;
-ABOUTME: ;
-VOTINGUSABILITY: ;
+XRRS: Write and check with Suzan/Rob
+ABOUTME: 1st p = information about you; 2nd p = info about process; 3rd p = info about your work experience;
+<s>VOTINGUSABILITY: remove from projects list; </s>
 
-ALL: ;
+ALL: showcase core skills you see featured in your top UX research job postings; Format using POWER: 
+<ul><li>Project (What project was this? What was special or unusual about this project?)</li>
+<li>Objective (What did you have to achieve? What was your role on the project?)</li>
+<li>Work (What work did you do? Why did you do that rather than something else?)</li>
+<li>End result (What did you achieve through the work? What were the outcomes?)</li>
+<li>Reflection (What did you learn? What will you do differently next time?)</li></ul>
+https://careerfoundry.com/en/blog/ux-design/ux-research-portfolio-guide/ for more info, including how to research the job postings.
+
 
 ADD:
-Page about making the website
 Page about Usabilathon
+Page about XRRS
+Page about SCOTTIE
+Page about Dissertation research
 
 IF TIME:
 PROJECTS: Make the "View" Text more visible, and change it to an editable field so that it shows a description per link. 
+PORTFOLIO CREATION: Create Page; Write; Add images;
 
 DO:
 Content analysis/strategy
