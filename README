@@ -1,15 +1,11 @@
-INDEX: need a favicon/logo; replace Voting Study with Boeing Page (and move CIRTL and ARL down); replace ARL with A11y; fix "View" link on Lazy Suzan; 
-CIRTL: fix image sizes;
+INDEX: ; 
 ARL: add images - use graphics from papers, presentations;
-<s>UTURN: remove from projects list;</s>
-<s>JOHNDEERE: remove from projects list;</s>
-<s>LAZYSUZAN: remove from projects list; </s>
+SCOTTIE: Create Page; Write; Add images;
 BOEING: Add images;
 DIGITALA11Y: Fix images;
 USABILATHON: Create Page; Write; Add images;
 XRRS: Write and check with Suzan/Rob
 ABOUTME: 1st p = information about you; 2nd p = info about process; 3rd p = info about your work experience;
-<s>VOTINGUSABILITY: remove from projects list; </s>
 
 ALL: showcase core skills you see featured in your top UX research job postings; Format using POWER: 
 <ul><li>Project (What project was this? What was special or unusual about this project?)</li>
@@ -24,12 +20,8 @@ ADD:
 Page about Usabilathon
 Page about XRRS
 Page about SCOTTIE
-Page about Dissertation research
 
 IF TIME:
+ADD: Page about Dissertation research
 PROJECTS: Make the "View" Text more visible, and change it to an editable field so that it shows a description per link. 
 PORTFOLIO CREATION: Create Page; Write; Add images;
-
-DO:
-Content analysis/strategy
-<s>Make mobile-adaptive better if time </s>
