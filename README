@@ -1,3 +1,5 @@
+FIRST: make contact links at page bottom accessible.
+
 INDEX: remove indent on menu items; change images on tiles; 
 ARL: add images - use graphics from papers, presentations;
 SCOTTIE: Create Page; Write; Add images;
@@ -6,7 +8,6 @@ DIGITALA11Y: Fix images;
 USABILATHON: Create Page; Write; Add images;
 XRRS: Write and check with Suzan/Rob
 ABOUTME: 1st p = information about you; 2nd p = info about process; 3rd p = info about your work experience;
-CONTACTME: remove page, just use email address;
 
 ALL: showcase core skills you see featured in your top UX research job postings; Format using POWER: 
 <ul><li>Project (What project was this? What was special or unusual about this project?)</li>
