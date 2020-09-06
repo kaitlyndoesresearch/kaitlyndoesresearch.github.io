@@ -4,12 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Header
 - type: document
   path: blob/master/a11y.html
   label: a11y
   match: "**/*"
-- type: heading
-  label: Header
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
