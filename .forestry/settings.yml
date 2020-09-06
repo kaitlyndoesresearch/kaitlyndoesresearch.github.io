@@ -5,9 +5,18 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: master/index.html
+  label: index
+  match: "**/*"
+- type: document
   path: master/about-me.html
   label: about-me
   match: "**/*"
+- type: document
+  path: master/kmo-resume.pdf
+  label: resume
+  match: "**/*"
+  read_only: true
 - type: heading
   label: Projects
 - type: document
