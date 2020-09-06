@@ -4,12 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: master/about-me.html
+  label: about-me
+  match: "**/*"
 - type: heading
   label: Projects
 - type: document
-  path: master
+  path: master/arl.html
   label: arl
-  match: "**/*"
 - type: document
   path: blob/master/a11y.html
   label: a11y
