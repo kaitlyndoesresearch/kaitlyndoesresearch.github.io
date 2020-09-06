@@ -7,15 +7,12 @@ sections:
 - type: document
   path: master/index.html
   label: index
-  match: "**/*"
 - type: document
   path: master/about-me.html
   label: about-me
-  match: "**/*"
 - type: document
   path: master/kmo-resume.pdf
   label: resume
-  match: "**/*"
   read_only: true
 - type: heading
   label: Projects
@@ -31,6 +28,7 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
