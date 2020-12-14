@@ -882,7 +882,7 @@ hr{
 /* Show image text on hover*/
 .container {
   position: relative;
-  width: 50%;
+  width: relative;
 }
 
 .image {
