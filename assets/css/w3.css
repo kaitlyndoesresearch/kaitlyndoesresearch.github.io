@@ -905,11 +905,11 @@ hr{
   text-align: center;
 }
 
-.container:hover .image {
+.container:hover .image,.container:focus .image,.container:active .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.container:hover .middle,.container:focus .middle,.container:active .middle {
   opacity: 1;
 }
 
