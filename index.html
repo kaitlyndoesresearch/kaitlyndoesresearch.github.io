@@ -51,27 +51,29 @@
 						</div>
 						<div class="w3-row-padding w3-padding-16">
 							<div class="w3-col l3 m6 w3-margin-bottom">
-								<a href="arl.html">
-									<div tabindex="0" class="container">
+								<div tabindex="0" class="container">
 										<img src="images/pic03_sq.JPG" alt="Kaitlyn interacting with the serious game environment used during player testing." class="image">
 										<div class="middle">
+											<div class="text">
 											<h3 class="overlay"><b>Player Testing</b></h3>
 											<p class="w3-left-align w3-hide-small"><b>Role:</b> Lead Researcher.<br /><br />
 												<b>Skills:</b> Project Management, Structured Interviews, Data Synthesis, Interdisciplinary Collaboration, Public Speaking.</p>
+											</div>
 										</div>
-									</div>
-								</a>
+								</div>
+								<a href="arl.html" class="w3-button">ARL Player Testing</a>
 							</div>
 							
 							<div class="w3-col l3 m6 w3-margin-bottom">
-								<a href="a11y.html" class="container">
-									<img src="images/a11y-sticker.png" alt="Digital Accessibility at Iowa State: Logo and website (digitalaccess.iastate.edu)." class="image">
-									<div class="middle">
-										<h3 class="overlay"><b>Generative Research</b></h3>
-										<p class="w3-left-align w3-hide-small"><b>Role:</b> UX Lead.<br /><br />
-											<b>Skills:</b> Experimental Design, Sample Recruitment, Semi-structured Interviews, Card Sorting, Prototyping.</p>
+								<div tabindex="0" class="container">
+										<img src="images/a11y-sticker.png" alt="Digital Accessibility at Iowa State: Logo and website (digitalaccess.iastate.edu)." class="image">
+										<div class="middle">
+											<h3 class="overlay"><b>Generative Research</b></h3>
+											<p class="w3-left-align w3-hide-small"><b>Role:</b> UX Lead.<br /><br />
+												<b>Skills:</b> Experimental Design, Sample Recruitment, Semi-structured Interviews, Card Sorting, Prototyping.</p>
 										</div>
-								</a>
+								</div>
+								<a href="a11y.html">Digital A11y Website Research</a>
 							</div>
 							<!--<article class="style3">
 									<span class="image">
@@ -132,11 +134,52 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		$(".myBox").click(function() {
+			window.location = $(this).find("a").attr("href"); 
+			return false;
+		});
+	</script>
+	<script type="text/javascript">
+ // this is the function to perform the action. This simple example toggles a message.
+ function doSomething(event) {
+   window.location = $(".container").data("location");
+   //return false from the function to make certain that the href of the link does not get invoked
+   return false;
+ }
+ // this is the function to perform the action when the Enter key has been pressed.  
+ function doSomethingOnEnter(event) {
+   var key = 0;
+   // Determine the key pressed, depending on whether window.event or the event object is in use
+   if (window.event) {
+     key = window.event.keyCode;
+   } else if (event) {
+     key = event.keyCode;
+   }
+   // Was the Enter or Space key pressed?
+   if (key == 13 || key == 32) {
+     return doSomething(event);
+   } 
+   // The event has not been handled, so return true
+   return true;
+ }
+ // This setUpActions() function must be called to set the onclick and onkeyup event handlers onto the existing 
+ // div element. This function must be called after the div element with id="active" has been loaded into the DOM.
+ // In this example the setUpActions() function is called from the onload event for the body element.
+ function setUpActions() {
+   // get the div object
+   var active=document.getElementById("active");
+   // assign the onclick handler to the object.
+   active.onclick=doSomething;
+   // assign the onkeyup handler to the object.
+   active.onkeyup=doSomethingOnEnter;
+ }
+ </script>
 
 	</body>
 </html>
